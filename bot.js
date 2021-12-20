@@ -21,12 +21,14 @@ require('dotenv').config();
 }
 
 function randSalt() {
-  var num = Math.floor(Math.random()*8);
+  var salts = salt.length;
+  var num = Math.floor(Math.random()*salts);
   return salt[num];  
 }
 
 function randBland() {
-  var num = Math.floor(Math.random()*2);
+  var blands = bland.length;
+  var num = Math.floor(Math.random()*blands);
   return bland[num];  
 } 
 
