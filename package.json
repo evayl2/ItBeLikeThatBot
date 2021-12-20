@@ -1,15 +1,27 @@
 {
-
-    "name": "itbebot",
-    
-    "version": "1.0.0",
-    
-    "description": "it be like that huh",
-    
-    "main": "bot.js",
-    
-    "author": "eva and egg :D",
-    
-    "dependencies": {}
-    
-    }
+  "name": "itbebot",
+  "version": "1.0.0",
+  "description": "it be like that huh",
+  "main": "bot.js",
+  "author": "eva and egg :D",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evayl2/ItBeLikeThatBot.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evayl2/ItBeLikeThatBot/issues"
+  },
+  "homepage": "https://github.com/evayl2/ItBeLikeThatBot#readme"
+}

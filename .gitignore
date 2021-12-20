@@ -1,2 +1,5 @@
-# ignore the auth file
-auth.json
+# ignore the env file
+.env
+
+# ignore all node files lol
+/node_modules/
