@@ -1,0 +1,15 @@
+{
+
+    "name": "itbebot",
+    
+    "version": "1.0.0",
+    
+    "description": "it be like that huh",
+    
+    "main": "bot.js",
+    
+    "author": "eva and egg",
+    
+    "dependencies": {}
+    
+    }
