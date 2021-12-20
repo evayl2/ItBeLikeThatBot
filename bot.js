@@ -10,9 +10,12 @@ require('dotenv').config();
       "That be how it will, is it?",
       "Will it be how that is, huh?",
       "That be the way in which things be the way they are, is it?",
+      "That be the way in which things be the way they are, is it?",
+      "That be the way in which things be the way they are, is it?",
+      "That be the way in which things be the way they are, is it?",
       "That's the way it's going to be, huh?"
       ];
-      
+
   var bland = ["Things really do be like that, eh?", "It really do be like that sometimes, huh?", "It be"];
 
 }
