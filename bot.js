@@ -1,4 +1,4 @@
-{ 
+/*{ 
     var salt = ["Oh.... I see.", 
         "So that's how it is, uh?",
         "That's how it's going to be, is it?",
@@ -102,4 +102,20 @@ if (message.substring(0, 1) == '!') {
      }
 
  }
+});*/
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const auth = require('./auth.json');
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
 });
+
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.reply('pong');
+  }
+});
+
+client.login(auth.token);

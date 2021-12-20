@@ -1,15 +1,16 @@
 {
-
     "name": "itbebot",
-    
     "version": "1.0.0",
-    
-    "description": "it be like that huh",
-    
+    "description": "",
     "main": "bot.js",
-    
-    "author": "eva and egg :D",
-    
-    "dependencies": {}
-    
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^11.6.4",
+        "dotenv": "^10.0.0"
     }
+}
