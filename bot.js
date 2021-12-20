@@ -12,17 +12,20 @@ require('dotenv').config();
       "That be the way in which things be the way they are, is it?",
       "That's the way it's going to be, huh?"
       ];
-  var bland = ["Things really do be like that, eh?", "It really do be like that sometimes, huh?"]
+      
+  var bland = ["Things really do be like that, eh?", "It really do be like that sometimes, huh?", "It be"];
 
 }
 
 function randSalt() {
-  var num = Math.floor(Math.random()*8);
+  var salts = salt.length;
+  var num = Math.floor(Math.random()*salts);
   return salt[num];  
 }
 
 function randBland() {
-  var num = Math.floor(Math.random()*2);
+  var blands = bland.length;
+  var num = Math.floor(Math.random()*blands);
   return bland[num];  
 }
 
