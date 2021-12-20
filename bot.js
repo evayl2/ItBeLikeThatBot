@@ -12,22 +12,19 @@ require('dotenv').config();
       "That be the way in which things be the way they are, is it?",
       "That's the way it's going to be, huh?"
       ];
-      
-  var bland = ["Things really do be like that, eh?", "It really do be like that sometimes, huh?", "It be"];
+  var bland = ["Things really do be like that, eh?", "It really do be like that sometimes, huh?"]
 
 }
 
 function randSalt() {
-  var salts = salt.length;
-  var num = Math.floor(Math.random()*salts);
+  var num = Math.floor(Math.random()*8);
   return salt[num];  
 }
 
 function randBland() {
-  var blands = bland.length;
-  var num = Math.floor(Math.random()*blands);
+  var num = Math.floor(Math.random()*2);
   return bland[num];  
-}
+} 
 
 
 
@@ -47,6 +44,9 @@ client.on('message', msg => {
     }
     if (msg.content === '!bland') {
       msg.reply(randBland());
+    }
+    if (msg.content == "!help") {
+      msg.reply("are you feeling salty today (!salt) or like white bread (!bland)");
     }
   });
 
